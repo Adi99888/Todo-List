@@ -1,0 +1,65 @@
+/* TodoLists.css */
+
+/* Use the 'Roboto' font for all text */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Increase the font size for the headings */
+  h2 {
+
+    font-weight:700;
+    font-size:xx-large;
+  }
+  
+  form {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  
+  input {
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgba(red, green, blue, alpha);
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    box-shadow: 0 2px 4px rgba(161, 24, 24, 0.1);
+  }
+  
+  button {
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+    background-color: #f8f8f8;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 1.1rem;
+  }
+  
+  li:nth-child(even) {
+    background-color: #e8e8e8;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+    transform: translateY(1px);
+  }
+  
