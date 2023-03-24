@@ -60,7 +60,7 @@ const TodoList = () => {
           value={todo}
           onChange={(e) => setTodo(e.target.value)}
         />
-        <button type="submit"> {editId ? "edit" : "go"} </button>
+        <button type="submit"> {editId ? "edit" : "add"} </button>
       </form>
       {todos.length===0 ? null: <h2>Your List is here</h2>}
       
@@ -79,13 +79,10 @@ const TodoList = () => {
         })}
       </ul>
 
-      <button
-        onClick={() => {
-          setTodos([]);
-        }}
-      >
-        Remove ALL
-      </button>
+
+      {todos.length===0 ? null: <button onClick={() => {setTodos([]);}}> Remove ALL </button>}
+
+      
     </>
   );
 };
